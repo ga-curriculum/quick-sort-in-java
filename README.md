@@ -4,6 +4,14 @@
 
 In this lesson, students will master QuickSort, a highly efficient sorting algorithm that uses the divide and conquer method. By understanding and implementing QuickSort, students will learn about the optimality of efficiency in sorting algorithms and the intricacies of time and space complexity associated with QuickSort.
 
+## Learning Objectives
+
+By the end of this lesson, students will be able to:
+
+- Comprehend the divide and conquer strategy used by QuickSort to partition arrays around a pivot element and recursively sort the partitions.
+- Assess the time complexities of QuickSort in best, average, and worst-case scenarios, and understand the space complexity implications of recursive sorting.
+- Explore optimization techniques such as randomized pivot selection and tail recursion to enhance QuickSort’s efficiency and minimize resource usage.
+
 ## Table of Contents
 
 1. [Introduction to QuickSort](#introduction-to-quicksort)
