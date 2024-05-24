@@ -1,17 +1,21 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Understanding QuickSort
 
-| Title                   | Type   | Duration | Author               |
-|-------------------------|--------|----------|----------------------|
-| Understanding QuickSort | Lesson | 1:00     | Suresh Melvin Sigera |
+# Introduction
 
-## Learning Objectives
+In this lesson, students will master QuickSort, a highly efficient sorting algorithm that uses the divide and conquer method. By understanding and implementing QuickSort, students will learn about the optimality of efficiency in sorting algorithms and the intricacies of time and space complexity associated with QuickSort.
 
-By the end of this lesson, students will be able to:
+## Table of Contents
 
-- QuickSort
-- Optimality of efficiency in sorting algorithms
+1. [Introduction to QuickSort](#introduction-to-quicksort)
+    - [How QuickSort Works](#how-quicksort-works)
+    - [Time and Space Complexity](#time-and-space-complexity)
+    - [Optimizations and Practical Considerations](#optimizations-and-practical-considerations)
+2. [Implementation in Java](#implementation-in-java)
+    - [QuickSort Definition](#quicksort-definition)
+    - [Usage Example](#usage-example)
+3. [Summary and Key Takeaways](#summary-and-key-takeaways)
 
-### QuickSort
+## Introduction to QuickSort
 
 QuickSort is a sorting algorithm that efficiently organizes elements within an array using the divide and conquer
 method. The process begins by partitioning the array into two sub-arrays based on a pivot element, which is typically
