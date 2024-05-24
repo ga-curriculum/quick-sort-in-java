@@ -12,7 +12,7 @@ By the end of this lesson, students will be able to:
 - Assess the time complexities of QuickSort in best, average, and worst-case scenarios, and understand the space complexity implications of recursive sorting.
 - Explore optimization techniques such as randomized pivot selection and tail recursion to enhance QuickSort’s efficiency and minimize resource usage.
 
-## Table of Contents
+## Course Overview (30min)
 
 1. [Introduction to QuickSort](#introduction-to-quicksort)
     - [How QuickSort Works](#how-quicksort-works)
