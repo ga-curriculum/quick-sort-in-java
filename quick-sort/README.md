@@ -12,6 +12,8 @@ Quick sort is a sorting algorithm that follows a divide-conquer-combine approach
 
 - **Conquer**  _(combine partitions)_ : Combine the partitions by discarding the pivot. The recursion in the **Divide** steps ensures that the partitions are combined in a LIFO manner (The last partitions to be created are the first partitions to be combined).
 
+![An image explaining quick sort recursive methodology using an array of size 5](./assets/QuickSort.png)
+
 ## Pivot selection strategies
 Picking a good pivot is necessary for the fast execution of quicksort algorithms. The more equal the size of the partitions, the more faster the algorithms. However, it is not practically efficient to predict the best pivot value for a dataset before a quicksort. Hence, a strategy to choose a pivot needs to be decided before implementing the algorithm. Some of the commonly used strategies are:
 
@@ -122,10 +124,4 @@ With better pivot choices, typically either optimal or good enough, the recursio
 - Its time complexity Degenerates to O(n^2) if the pivot is not chosen well.
 - Deep recursion can lead to stack overflow for large datasets.
 - Equal elements may not maintain their relative order. In sorting algorithms, this is called an unstable sort.
-## Final reflections
-- Quick sort is a powerful sorting algorithm for large datasets.
-- Partitioning logic efficiently separates elements based on the pivot.
-- Recursive calls divide the problem until partitions have only one element.
-- Quick sort uses only in-place operations. No extra arrays required, making it memory efficient.
-- Best and average case performances are optimal O(n log n).
-- Careful pivot selection can mitigate the risk of worst-case scenarios.
+
